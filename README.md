@@ -46,7 +46,7 @@ The **Bwrap-sandbox** is a sandboxed code execution service designed to securely
 
 3. Run the redis:
    ```bash
-   docker compose up
+   docker run -d -p 6379:6379 --name=my-redis redis
    ```
 4. Build the api:
    ```bash
