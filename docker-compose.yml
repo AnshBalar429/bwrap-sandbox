@@ -24,3 +24,6 @@ services:
     depends_on:
       - redis
     privileged: true
+
+networks:
+  sandbox-net : {}
