@@ -72,7 +72,7 @@ The **Bwrap-sandbox** is a sandboxed code execution service designed to securely
 ### Steps for docker compose 
 Run this command
 ```bash
-   docker compose up 
+docker compose up 
 ```
 
 ## Usage
