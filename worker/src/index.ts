@@ -4,7 +4,7 @@ import IORedis from 'ioredis';
 
 const connection = new IORedis({
   maxRetriesPerRequest: null,
-  host: "scet-redis-1",
+  host: "my-redis",
   port: 6379
 });
 
