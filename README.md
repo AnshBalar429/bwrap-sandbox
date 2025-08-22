@@ -29,7 +29,7 @@ The **Bwrap-sandbox** is a sandboxed code execution service designed to securely
 - **Docker** (optional for containerized deployment)
 - **Redis** (for BullMQ)
 
-### Steps
+### Steps for manual set up
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-repo/scet-worker.git
@@ -69,6 +69,11 @@ The **Bwrap-sandbox** is a sandboxed code execution service designed to securely
    docker run -p 3000:3000 --network=your_network_name api-app  
    ```
 
+### Steps for docker compose 
+Run this command
+```bash
+   docker compose up 
+```
 
 ## Usage
 The worker listens for jobs on the `code-exec` queue. Submit jobs with the following structure:
